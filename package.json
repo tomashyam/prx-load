@@ -4,6 +4,7 @@
   "description": "playground for proxy load",
   "main": "prog.js",
   "dependencies": {
+    "artillery": "^1.6.0-29",
     "express": "^4.17.1",
     "typescript": "^3.8.3"
   },
@@ -11,7 +12,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node prog.js",
-    "load": "loadtest -c 5 --rps 20 http://localhost:90/inc"
+    "load": "loadtest -c 5 --rps 20 http://localhost:90/inc",
+    "quick" : "artillery quick --count 10 -n 20 http://localhost:90/isalive"
   },
   "repository": {
     "type": "git",

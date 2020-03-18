@@ -1,0 +1,27 @@
+{
+  "name": "proxy-load",
+  "version": "1.0.0",
+  "description": "playground for proxy load",
+  "main": "prog.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomashyam/prx-load.git"
+  },
+  "keywords": [
+    "load"
+  ],
+  "author": "tom hyam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomashyam/prx-load/issues"
+  },
+  "homepage": "https://github.com/tomashyam/prx-load#readme"
+}

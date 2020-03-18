@@ -13,7 +13,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node prog.js",
     "load": "loadtest -c 5 --rps 20 http://localhost:90/inc",
-    "quick" : "artillery quick --count 10 -n 20 http://localhost:90/isalive"
+    "quick" : "artillery quick --count 10 -n 20 http://localhost:90/isalive",
+    "art" : "artillery run tests/load.yml"
   },
   "repository": {
     "type": "git",

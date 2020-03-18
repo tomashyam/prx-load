@@ -9,7 +9,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node prog.js",
+    "load": "loadtest -c 5 --rps 20 http://localhost:90/inc"
   },
   "repository": {
     "type": "git",

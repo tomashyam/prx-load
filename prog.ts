@@ -13,6 +13,13 @@ app.get("/inc", (req,res)=> {
   res.end()
 });
 
+app.post("/postInc", (req,res)=> {
+  counter++
+  console.log("post" + counter);
+  res.end();
+  return;
+})
+
 app.listen(90, ()=> {
   console.log ("hit me iam redy");
 });
